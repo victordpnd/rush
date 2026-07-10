@@ -1,3 +1,12 @@
-""" Music collection catalog """
+from sample_data import tracks
+from catalog import print_catalog
+from statistics import print_statistics
 
-print("Project: music-catalog")
+
+def main():
+    print_catalog(tracks)
+    print_statistics(tracks)
+
+
+if __name__ == "__main__":
+    main()
